@@ -139,6 +139,43 @@ h2 {
     }
 }
 
+.multimediaCarrusel {
+    background-color: $colorb1;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.multimediaEscenas {
+    text-align: center;
+    background: linear-gradient(to bottom, $colorb2, $colorb3);
+
+    img:hover {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+.multimediaReparto {
+    text-align: center;
+    background: linear-gradient(to bottom, $colorb3, $colorb4);
+
+    img:hover {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+.multimediaVideo {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    background-color: $colorb4;
+    padding: 10px;
+
+    iframe {
+        height: 350px;
+    }
+}
+
 footer {
     letter-spacing: 2px;
 }
