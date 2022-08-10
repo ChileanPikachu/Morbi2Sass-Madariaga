@@ -175,8 +175,8 @@ $font in $listas {
 
 @mixin sizes($width, $height, $bcolor) {
     height: $height;
-width: $width;
-background-color: $bcolor;
+    width: $width;
+    background-color: $bcolor;
 }
 
 .multimediaReparto {
@@ -199,6 +199,28 @@ background-color: $bcolor;
         height: 350px;
     }
 }
+
+.noticias {
+    text-align: center;
+
+    .noticia1 {
+        background-color: #044140;
+    }
+
+    .noticia2 {
+        background-color: #0F3130;
+    }
+
+    .noticia3 {
+        background-color: #01282A;
+    }
+
+    .noticia4 {
+        background-color: #041E1F;
+    }
+}
+
+
 
 footer {
     letter-spacing: 2px;

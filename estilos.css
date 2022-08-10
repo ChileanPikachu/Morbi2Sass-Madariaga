@@ -195,6 +195,22 @@ h2 {
   height: 350px;
 }
 
+.noticias {
+  text-align: center;
+}
+.noticias .noticia1 {
+  background-color: #044140;
+}
+.noticias .noticia2 {
+  background-color: #0F3130;
+}
+.noticias .noticia3 {
+  background-color: #01282A;
+}
+.noticias .noticia4 {
+  background-color: #041E1F;
+}
+
 footer {
   letter-spacing: 2px;
 }/*# sourceMappingURL=estilos.css.map */
