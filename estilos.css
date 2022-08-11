@@ -97,6 +97,7 @@ body {
   padding-bottom: 10px;
 }
 
+/*Index inicio*/
 .jumbotronPadre {
   background-color: rgba(15, 49, 48, 0.9);
 }
@@ -158,6 +159,8 @@ h2 {
   overflow: auto;
 }
 
+/*Index fin*/
+/*Multimedia inicio*/
 .multimediaCarrusel {
   background-color: rgba(3, 84, 84, 0.5);
   text-align: center;
@@ -173,20 +176,16 @@ h2 {
 }
 
 .multimediaReparto {
-  height: auto;
-  width: 100%;
-  background-color: rgba(15, 49, 48, 0.9);
   text-align: center;
+  background-color: rgba(15, 49, 48, 0.9);
 }
 .multimediaReparto img:hover {
   transform: scale(1.2, 1.2);
 }
 
 .multimediaVideo {
-  height: auto;
-  width: 100%;
-  background-color: rgb(15, 49, 48);
   text-align: center;
+  background-color: rgb(15, 49, 48);
   display: grid;
   justify-content: center;
   padding: 10px;
@@ -195,6 +194,8 @@ h2 {
   height: 350px;
 }
 
+/*Multimedia fin*/
+/*Noticias inicio*/
 .noticias {
   text-align: center;
 }
@@ -211,6 +212,29 @@ h2 {
   background-color: #041E1F;
 }
 
+/*Noticias fin*/
+/*Quienes somos inicio*/
+.quienesSomos {
+  background-color: rgb(15, 49, 48);
+  padding-left: 50px;
+}
+.quienesSomos .quienesSomos_directiva {
+  background-color: rgba(3, 84, 84, 0.5);
+  padding: 10px;
+}
+.quienesSomos .quienesSomos_dondenosencontramos {
+  padding: 10px;
+}
+
+/*Quienes somos fin*/
+/*Contacto inicio*/
+.contacto_formulario {
+  background-image: url(./multimedia/imagen/morbiusright.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/*Contacto fin*/
 footer {
   letter-spacing: 2px;
 }/*# sourceMappingURL=estilos.css.map */

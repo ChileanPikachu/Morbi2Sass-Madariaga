@@ -96,6 +96,7 @@ body {
     padding-bottom: 10px;
 }
 
+/*Index inicio*/
 .jumbotronPadre {
     background-color: $colorb2;
 
@@ -157,6 +158,9 @@ $font in $listas {
     }
 }
 
+/*Index fin*/
+
+/*Multimedia inicio*/
 .multimediaCarrusel {
     background-color: $colorb1;
     text-align: center;
@@ -173,15 +177,13 @@ $font in $listas {
     }
 }
 
-@mixin sizes($width, $height, $bcolor) {
-    height: $height;
-    width: $width;
+@mixin sizes($textalign, $bcolor) {
+    text-align: $textalign;
     background-color: $bcolor;
 }
 
 .multimediaReparto {
-    @include sizes(100%, auto, $colorb2);
-    text-align: center;
+    @include sizes(center, $colorb2);
 
     img:hover {
         transform: scale(1.2, 1.2);
@@ -189,8 +191,7 @@ $font in $listas {
 }
 
 .multimediaVideo {
-    @include sizes(100%, auto, $colorb3);
-    text-align: center;
+    @include sizes(center, $colorb3);
     display: grid;
     justify-content: center;
     padding: 10px;
@@ -200,6 +201,9 @@ $font in $listas {
     }
 }
 
+/*Multimedia fin*/
+
+/*Noticias inicio*/
 .noticias {
     text-align: center;
 
@@ -220,7 +224,33 @@ $font in $listas {
     }
 }
 
+/*Noticias fin*/
 
+/*Quienes somos inicio*/
+.quienesSomos {
+    background-color: $colorb3;
+    padding-left: 50px;
+
+    .quienesSomos_directiva {
+        background-color: $colorb1;
+        padding: 10px;
+    }
+
+    .quienesSomos_dondenosencontramos {
+        padding: 10px;
+    }
+}
+
+/*Quienes somos fin*/
+
+/*Contacto inicio*/
+.contacto_formulario {
+    background-image: url(./multimedia/imagen/morbiusright.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Contacto fin*/
 
 footer {
     letter-spacing: 2px;
